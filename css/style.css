@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.menu_fixed{
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    background: red;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
